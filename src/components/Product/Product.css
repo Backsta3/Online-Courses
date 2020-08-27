@@ -13,11 +13,14 @@
     padding-left: 30px;
 }
 .product-button{
-    background-color: goldenrod;
+    background-color: rgba(46, 56, 109, 0.699);
     border-radius: 6px;
     border: 1px solid rgba(17, 15, 15, 0.959);
     width: 150px;
     height: 30px;
     margin-left: 30px;
     cursor: pointer;
+}
+img{
+    width: 100%;
 }

@@ -6,12 +6,12 @@ import './Product.css'
 const Product = (props) => {
     const {img, name, seller, price, stock}= props.product ;
     return (
-        <div className="product">
-            <div>
+        <div className="product  d-flex  row align-items-center  card-deck">
+            <div className="col-md-5 card ">
                 <img src={img} />
             </div>
             
-            <div>
+            <div className="col-md-7 card ">
                 <h4 className="product-name">{name}</h4>
                 <p><small>by {seller} </small></p>
                 <p>${price}</p>

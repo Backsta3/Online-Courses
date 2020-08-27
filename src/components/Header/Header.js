@@ -6,11 +6,10 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header">
-       <img src={logo}alt=""/>
        <nav>
-           <a href="/shop">Shop</a>
-           <a href="/review">Order Review</a>
-           <a href="/manage">Manage Inventory</a>
+           <a href="/shop">Courses</a>
+           <a href="/review">Ordered Courses</a>
+           <a href="/manage">Inventory</a>
        </nav>
         </div>
     );
