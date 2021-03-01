@@ -1,16 +1,23 @@
 import React from 'react';
-import logo from '../../images/logo.png';
+
+
 import './Header.css';
 
 
 const Header = () => {
     return (
         <div className="header">
-       <nav className="navbar navbar-expand-lg navbar-dark">
-           <a href="/shop">Courses</a>
-           <a href="/review">Ordered Courses</a>
-           <a href="/manage">Inventory</a>
+            
+      <div>
+      <nav className="navbar navbar-expand-lg navbar-dark justify-content-around">
+      <div>
+        <h1>ⒹⓇⒺⒶⓂ ⓉⒺⒶⓂ</h1>
+            </div>
+          <div>
+          <a href="/shop" className="link">Reload Page</a>
+          </div>
        </nav>
+      </div>
         </div>
     );
 };

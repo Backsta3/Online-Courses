@@ -1,18 +1,19 @@
-.product{
+.player{
     display: flex;
     border-bottom: 2px solid lightsalmon;
     margin-bottom: 5px;
     margin-right: 5px;
     padding-bottom: 7px;
+    height: 250px;
 }
-.product-name{
+.player-name{
     color: lightseagreen;
     padding-left: 30px;
 }
-.product p{
+.player p{
     padding-left: 30px;
 }
-.product-button{
+.player-button{
     background-color: rgba(46, 56, 109, 0.699);
     border-radius: 6px;
     border: 1px solid rgba(17, 15, 15, 0.959);
@@ -22,5 +23,16 @@
     cursor: pointer;
 }
 img{
-    width: 100%;
+    width: 250px;
+    height: 255px;
+   padding-bottom: 10px;
+}
+
+h5{
+    padding-left: 30px;
+}
+.card{
+    height: 235px;
+    margin-bottom: 12px;
+    background-color: rgb(157, 224, 226);
 }

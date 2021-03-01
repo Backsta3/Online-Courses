@@ -6,7 +6,7 @@ margin: 10px;
     text-align: center;
 }
 .header nav{
-    background-color: rgba(80, 60, 60, 0.63);
+    background-color: rgba(72, 236, 222, 0.904);
     line-height: 40px;
     font-size: 20px;
     text-align: left;
@@ -26,3 +26,4 @@ nav a:hover{
 nav{
     position:sticky;
 }
+

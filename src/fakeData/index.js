@@ -1,5 +1,5 @@
-import courses from './courses'
-const fakeData = [...courses];
+import players from './players'
+const fakeData = [...players];
 
 
 const shuffle = a => {
